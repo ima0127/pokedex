@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html, body {
+  height: 100%;
+  margin: 0;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(to bottom right, #a1c4fd, #c2e9fb);
+}
+
+.wrapper {
+  flex: 1; /* ocupa todo el espacio disponible */
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  padding: 15px;
+  text-align: center;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 50px;
+  height: 60px;
+  background-color: #765898;
+}
+
+/* Logo alineado a la izquierda */
+a{
+    text-decoration: none;
+}
+ .logo {
+  font-size: 1.8rem;
+  color: white;
+}
+
+.logo2 {
+  color: #ffcb05;
+  font-weight: bold;
+}
+
+/* Contenedor de input + botón a la derecha */
+nav {
+  display: flex;
+  gap: 10px; /* separación entre input y botón */
+}
+
+nav input {
+  padding: 5px 10px;
+  font-size: 1rem;
+  border-radius: 5px;
+  border: none;
+}
+
+nav button {
+  padding: 5px 15px;
+  font-size: 1rem;
+  background-color: #ffcb05;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.cover {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 40px;
+}
+
+#img {
+  width: 200px;
+  height: 200px;
+  border: solid 1px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  background-color: rgb(182, 178, 178);
+}
+.info {
+  max-width: 300px;
+}
+
+.data {
+  margin: 5px 0;
+}
+
+.github{
+    text-decoration: none;
+    color: rgb(10, 218, 211);
+}
