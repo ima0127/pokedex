@@ -45,7 +45,7 @@ async function getData(id) {
 
   } catch (error) {
     console.error("Error al hacer la petición:", error);
-    showPopup("Escribe un nombre o ID de Pokémon.");
+    showPopup("Enter a Pokémon name or ID.");
     pokeName.textContent = "?";
     pokeType.textContent = "Type(s): ?";
     pokeAbilities.textContent = "Abilities: ?";
@@ -62,7 +62,7 @@ form.addEventListener("submit", function (e) {
   if (find) {
     getData(find);
   } else {
-    showPopup("Por favor, escribe un ID o nombre de Pokémon.");
+    showPopup("Please, enter a Pokémon name or ID..");
     inputSearch.focus();
   }
 });
